@@ -1,55 +1,60 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: 2px;
-    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: Roboto, sans-serif;
 }
 
-.dark-background {
-    background-color: darkblue;
+.hero-dark-background {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px;
 }
 
 .header {
     display: flex;
     align-items: center;
     margin: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 18px;
 }
 .header-logo {
-    height: 25px;
-    width: auto;
+    font-size: 25px;
+    font-weight: bold;
 }
 .header-links {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 20px;
     list-style-type: none;
 }
 .header-links a {
-    color: white;
-    text-decoration: none;
-    ;
-}
-.hero-paragraph {
     display: flex;
     justify-content: center;
-    margin: 75px;
-    margin-left: 150px;
-    margin-right: 200px;
+    margin: 0;
+    padding: 0;
+}
+.hero-paragraph {
     align-self: center;
-    max-resolution: 20px;
-    color: white;
+    margin-right: 20px;
 }
 h1 {
+    display: flex;
     font-size: 48px;
     font-weight: 900;
-    color: white;
+    color: #f9faf8;
     padding: 0;
     margin: 0;
 }
 .hero-paragraph-text {
-    color: white;
+    color: #e5e7e8;
+}
+.sign-up-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
 }
