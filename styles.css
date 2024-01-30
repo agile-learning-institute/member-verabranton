@@ -1,15 +1,15 @@
-
 .flex-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px; 
+    margin: 100px;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: bold;
-    color: #f9faf8 
+    color: #f9faf8;
 }
 
 .header-links {
@@ -18,18 +18,13 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    
 }
 
 .links {
-    margin-left: 15px; /* Adjust spacing between links */
+    margin-left: 15px;
 }
 
-.box {
-    display: flex;
-}
-
-body{
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -73,4 +68,103 @@ h1 {
     margin-right: 20px;
 }
 
+.placeholder {
+    padding: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: grey;
+}
+.blue-box {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+}
 
+figure {
+    margin: 20px;
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.grey-background {
+    background-color: #e5e7eb;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 700px;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+}
+.thor {
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.light-background {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.light-background-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7oopx;
+    height: 90px;
+    border-radius: 7px;
+}
+
+.container-text {
+    margin-right: 50px;
+    width: 500px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.container-text p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+
+.container-sign-up-button {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
